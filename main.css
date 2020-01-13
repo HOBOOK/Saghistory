@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css); 
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+body
+{
+	font-family:'나눔고딕', NanumGothic, 'Nanum Gothic';
+	font-family: 'Jeju Gothic';
+	background-image:url("image/background.JPG");
+	height:100vh;
+	overflow:hidden;
+}
+body a
+{
+	text-decoration:none;
+}
+#wrapper
+{
+	display:block;
+	margin:0 auto;
+	max-width:68rem;
+	min-width:30rem;
+	width:100%;
+	height:100vh;
+	display: table;
+}
+#center
+{
+	display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    text-align: right;
+}
+#center img
+{
+	display:block;
+	text-align:center;
+	vertical-align:middle;
+	margin:0 auto;
+}
+#center p
+{
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:2rem;
+	color:rgba(255,255,255,0.6);
+}
+#center p:hover
+{
+	text-decoration:underline;
+}

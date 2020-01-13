@@ -1,0 +1,402 @@
+﻿@CHARSET "UTF-8";
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css); 
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+html
+{
+	width:100%;
+	overflow-x:hidden;
+}
+body
+{
+	margin:0%;
+	width:100%;
+	font-family:'나눔고딕', NanumGothic, 'Nanum Gothic';
+	font-family: 'Jeju Gothic';
+	overflow-x:hidden;
+	 -ms-user-select: none; 
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+
+	
+}
+a
+{
+	text-decoration:none;
+	-webkit-appearance: none;
+}
+#wrapper
+{
+	margin:0 auto;
+	min-width:320px;
+	height:100%;
+	
+}
+#header
+{
+	width:100%;
+	margin:0 auto;
+	background-color:white;
+	border-bottom:0.1px solid lightgray;
+	background-image:url("image/head_workhistory.jpg");
+}
+#header a
+{
+	margin: 0 10px;
+}
+
+#header #header_logo
+{
+	height:40px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3px;
+	margin-bottom:3px;
+	display:block;
+}
+#btn_login
+{
+	position:absolute;top:1.3rem;right:1rem;font-size:0.8em;text-decoration:none;
+			color:white;background-color:#0099ff;border-radius:0.2rem;padding:0.5rem;
+			transition:.3s;
+}
+#btn_login:hover
+{
+	background-color:#0066ff;
+}
+.balloon {
+	text-align:center;
+    display: inline-block;
+    position: relative;
+    background: rgba(0,100,255,1);
+    height: 20px;
+    width: 60px;
+    margin: 0 auto;
+    padding-top:0.3rem;
+    padding-bottom:0.1rem;
+}
+.balloon:after {
+    content: '';
+    position: absolute;
+    border-top: 10px solid rgba(0,100,255,1);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    bottom: -8px;
+    left: 25px;
+}
+.balloon a
+{
+	text-decoration:none;
+	text-align:center;
+	color:white;
+	font-family: 'Hanna', sans-serif; 
+}
+#menu
+{
+	display:inline-block;
+}
+#menu ul
+{
+	float:left;
+	list-style:none;
+}
+#menu .menu
+{
+	float:left;
+	margin-left:1.5rem;
+	margin-right:1.5rem;
+	cursor:pointer;
+}
+.hide
+{
+	float:left;
+}
+.menu a
+{
+	color:rgba(0,30,30,1);
+	text-decoration:none;
+	display:block;
+}
+.menu a:hover
+{
+	color:rgba(0,150,255,1);
+}
+.menu
+{
+	
+}
+.menu .hide
+{
+	display:none;
+}
+.menu a:hover
+{
+	color:rgba(0,81,255,255);
+}
+.hide a:hover
+{
+	color:rgba(0,81,255,255);
+}
+.hide a
+{
+	text-decoration:none;
+	font-size:0.9em;
+}
+
+nav
+{
+	width:100%;
+	margin: 0 auto;
+	text-align:center;
+	max-width:1024px;
+	display:block;
+	margin-top:1rem;
+	margin-bottom:2rem;
+	background-color:white;
+	border:0.1px solid rgba(0,0,0,0.05);
+}
+nav #btn_plus
+{
+	display:inline-block;
+	width:0.95rem;
+	height:0.95rem;
+}
+nav ol
+{
+	list-style:none;
+	margin-left:-30px;
+	
+}
+nav li
+{
+	position:relative;
+	display:inline-block;
+	width:auto;
+	min-width:10%;
+	max-width:15%;
+	margin:0 auto;
+	text-align:center;
+}
+nav ol a
+{
+	cursor:pointer;
+	font-size:1rem;
+	font-family: 'Hanna', sans-serif; 
+	display:block;
+	width:100%;
+	text-decoration:none;
+	color:rgba(0,0,0,0.7);
+	background-color:white;
+	padding-top:0.5rem;
+	padding-bottom:0.5rem;
+	transition:.3s;
+	margin-top:0.1rem;
+	margin-bottom:0.1rem;
+}
+nav ol a:hover
+{
+	color:#0066ff;
+}
+nav #form_category
+{
+	display:none;
+}
+nav #form_category input
+{
+	display:inline-block;
+	font-size:1rem;
+	width:5rem;
+	height:1.2rem;
+	background-color:white;
+	border:1px solid white;
+	border-bottom:0.5px solid rgba(200,200,200,0.7);
+	font-family: 'Jeju Gothic';
+	max-size:5;
+}
+#del_category
+{
+	position:absolute;
+	display:none;
+	width:10px;
+	height:10px;
+	top:40%;
+	right:15%;
+	cursor:pointer;
+}
+#center
+{
+	margin:0 auto;
+	background-color:rgba(250,250,250,0.5);
+
+	
+}
+#center .thumnail
+{
+	text-align:center;
+	position:relative;
+	padding-top:2rem;
+	padding-bottom:2rem;
+	margin:0 auto;
+	background-image:url("image/cin5.gif");
+	background-size:cover;
+	repeat:none;
+	max-width:1024px;
+	border:0.1px solid rgba(0,0,0,0.05);
+	
+	
+}
+#center .thumnail #thum_image
+{
+	margin:0 auto;
+	display:block;
+	border-radius:100%;
+	border: solid 1px rgba(255,255,255,0.3);
+	width:130px;
+	height:130px;
+}
+#center .thumnail #thum_logo2
+{
+	margin:0 auto;
+	align:center;
+	display:block;
+	margin-top:3rem;
+	width:320px;
+}
+#center .thumnail #upload_image
+{
+	margin:0 auto;
+	align:center;
+	display:block;
+	margin-top:5rem;
+	width:140px;
+}
+#center .thumnail #go_movie
+{
+	position:absolute;
+	top:10px;
+	right:10px;
+	text-decoration:none;
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	padding-left:0.5rem;
+	padding-right:0.5rem;
+	padding-top:0.3rem;
+	padding-bottom:0.3rem;
+	border-radius:15rem;
+	
+}
+#center_album
+{
+	max-width:1024px;
+	margin:0 auto;
+}
+#center_album figure
+{
+	margin:0.2%;
+	position:relative;
+	display:inline-block;
+	width:32.5%;
+	overflow:hidden;
+	height:0;
+	padding-top:32.5%;
+}
+#center_album figure:hover img
+{
+	
+}
+
+#center_album figure img
+{
+	display:inline-block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	min-height:100%;
+	transition:.3s;
+	object-fit: cover;
+}
+#center_album figure #viewp
+{
+	position:absolute;
+	display:inline-block;
+	text-align:center;
+	vertical-align: top;
+	vertical-align:middle;
+	left:0;
+	top:0;
+	color:rgba(0,0,0,0);
+	background-color:rgba(0,0,0,0);
+	width:100%;
+	height:100%;
+	transition:.3s;
+}
+#center_album figure #viewp:hover
+{
+	background-color:rgba(0,0,0,0.3);
+	color:white;
+}
+#center_album figure #viewp > p
+{
+	position:absolute;
+	bottom:calc(50% - 12px);
+	left:0;
+	width:100%;
+	text-align:center;
+}
+#notice_popup
+{
+	position:fixed;
+	left:0;
+	bottom:0;
+	display:block;
+	width:100%;
+	height:50px;
+	background-color:rgba(0,0,0,0.5);
+}
+#notice_popup p
+{
+	text-align:center;
+	color:white;
+	margin-left:2rem;
+}
+
+#notice_popup img
+{
+	position:absolute;
+	right:0;
+	top:0;
+	float:right;
+	width:15px;
+	height:15px;
+	margin-top:17px;
+	margin-right:10px;
+	display:inline-block;
+	cursor:pointer;
+}
+@media only screen and (max-width:720px)
+{
+	#center .thumnail #thum_image
+	{
+		width:80px;
+		height:80px;
+	}
+	#center .thumnail #thum_logo2
+	{
+		margin-top:0.5rem;
+	}
+	#center .thumnail #upload_image
+	{
+		margin-top:0.5rem;
+	}
+	#center_album figure
+	{
+		margin:0.1%;
+		width:32.2%;
+		height:0;
+		padding-top:32.2%;
+	}
+}
+	

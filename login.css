@@ -1,0 +1,152 @@
+﻿@CHARSET "UTF-8";
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css); 
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+html
+{
+	width:100%;
+	overflow-x:hidden;
+}
+body
+{
+	margin:0%;
+	width:100vw;
+	height:100vh;
+	font-family:'나눔고딕', NanumGothic, 'Nanum Gothic';
+	font-family: 'Jeju Gothic';
+	overflow-x:hidden;
+	 -ms-user-select: none; 
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   user-select: none;
+   -webkit-appearance: none;
+   background-image:url("image/bg_login.JPG");
+   background-size:cover;
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+#wrapper
+{
+	margin:0 auto;
+	min-width:240px;
+	height:100%;
+}
+#header
+{
+	width:100%;
+	height:50px;
+	margin:0 auto;
+	color:white;
+	position:absolute;
+	display:block;
+	top:0;
+	left:0;
+}
+#header a
+{
+	font-size:1em;
+	margin-top:1rem;
+	margin-left:1rem;
+}
+#center
+{
+	border-top:0.2px solid rgba(0,0,0,0.1);
+	margin:0 auto;
+	width:100vw;
+	height:100vh;
+	display:block;
+	text-align:center;
+	vertical-align:middle;
+}
+#login_div
+{
+	display:inline-block;
+	text-align:center;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-150px;
+	margin-top:-200px;
+	width:300px;
+
+}
+#login_div img
+{
+	width:200px;
+}
+
+input
+{
+	display:block;
+	width:230px;
+	height:35px;
+	padding-left:0.7rem;
+	padding-right:0.7rem;
+	margin:0 auto;
+	font-size:0.9em;
+	color:rgba(0,50,50,1);
+	font-family:'나눔고딕', NanumGothic, 'Nanum Gothic';
+	border-radius:0.2rem;
+	-webkit-appearance: none;
+	border:0.1px solid rgba(255,255,255,1);
+	margin-top:0.3rem;
+	margin-bottom:0.3rem;
+}
+#notice_popup
+{
+	position:fixed;
+	left:0;
+	bottom:0;
+	display:block;
+	width:100%;
+	height:50px;
+	background-color:rgba(0,0,0,0.5);
+}
+#notice_popup p
+{
+	text-align:center;
+	color:white;
+	margin-left:2rem;
+}
+
+#notice_popup img
+{
+	position:absolute;
+	right:0;
+	top:0;
+	float:right;
+	width:15px;
+	height:15px;
+	margin-top:17px;
+	margin-right:10px;
+	display:inline-block;
+	cursor:pointer;
+}
+@media only screen and (max-width:720px)
+{
+	#center .thumnail #thum_image
+	{
+		width:80px;
+		height:80px;
+	}
+	#center .thumnail #thum_logo2
+	{
+		margin-top:0.5rem;
+	}
+	#center .thumnail #upload_image
+	{
+		margin-top:0.5rem;
+	}
+	#center_album figure
+	{
+		margin:0.1%;
+		width:32.2%;
+		height:0;
+		padding-top:32.2%;
+	}
+}
+	
